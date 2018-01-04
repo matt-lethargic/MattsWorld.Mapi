@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2003
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MattsWorld.Mapi.Api", "Mapi\MattsWorld.Mapi.Api\MattsWorld.Mapi.Api.csproj", "{7EAB1394-E027-4E93-8CDB-99703FA3F712}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MattsWorld.Mapi.Api", "MattsWorld.Mapi.Api\MattsWorld.Mapi.Api.csproj", "{7EAB1394-E027-4E93-8CDB-99703FA3F712}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MattsWorld.Mapi", "Mapi\MattsWorld.Mapi\MattsWorld.Mapi.csproj", "{0C377409-16D6-4E45-B83F-5080E3669FB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MattsWorld.Mapi", "MattsWorld.Mapi\MattsWorld.Mapi.csproj", "{0C377409-16D6-4E45-B83F-5080E3669FB7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MattsWorld.Mapi.Manager", "Mapi\MattsWorld.Mapi.Manager\MattsWorld.Mapi.Manager.csproj", "{D1081D12-71C6-498D-8BD5-3EE91DCE5A2C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MattsWorld.Mapi.Manager", "MattsWorld.Mapi.Manager\MattsWorld.Mapi.Manager.csproj", "{D1081D12-71C6-498D-8BD5-3EE91DCE5A2C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{18271F8B-A131-4A9D-B369-179DDF07E431}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MattsWorld.Mapi.Tests", "Mapi\Tests\MattsWorld.Mapi.Tests\MattsWorld.Mapi.Tests.csproj", "{9F9365D9-0F26-4F33-8B00-89C494FD08EE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MattsWorld.Mapi.Tests", "Tests\MattsWorld.Mapi.Tests\MattsWorld.Mapi.Tests.csproj", "{9F9365D9-0F26-4F33-8B00-89C494FD08EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
