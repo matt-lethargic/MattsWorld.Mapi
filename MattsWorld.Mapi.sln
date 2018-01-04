@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MattsWorld.Mapi.Api", "Mapi\MattsWorld.Mapi.Api\MattsWorld.Mapi.Api.csproj", "{7EAB1394-E027-4E93-8CDB-99703FA3F712}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MattsWorld.Mapi", "Mapi\MattsWorld.Mapi\MattsWorld.Mapi.csproj", "{0C377409-16D6-4E45-B83F-5080E3669FB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MattsWorld.Mapi.Manager", "Mapi\MattsWorld.Mapi.Manager\MattsWorld.Mapi.Manager.csproj", "{D1081D12-71C6-498D-8BD5-3EE91DCE5A2C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{18271F8B-A131-4A9D-B369-179DDF07E431}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MattsWorld.Mapi.Tests", "Mapi\Tests\MattsWorld.Mapi.Tests\MattsWorld.Mapi.Tests.csproj", "{9F9365D9-0F26-4F33-8B00-89C494FD08EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7EAB1394-E027-4E93-8CDB-99703FA3F712}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EAB1394-E027-4E93-8CDB-99703FA3F712}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EAB1394-E027-4E93-8CDB-99703FA3F712}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EAB1394-E027-4E93-8CDB-99703FA3F712}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C377409-16D6-4E45-B83F-5080E3669FB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C377409-16D6-4E45-B83F-5080E3669FB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C377409-16D6-4E45-B83F-5080E3669FB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C377409-16D6-4E45-B83F-5080E3669FB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1081D12-71C6-498D-8BD5-3EE91DCE5A2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1081D12-71C6-498D-8BD5-3EE91DCE5A2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1081D12-71C6-498D-8BD5-3EE91DCE5A2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1081D12-71C6-498D-8BD5-3EE91DCE5A2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F9365D9-0F26-4F33-8B00-89C494FD08EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F9365D9-0F26-4F33-8B00-89C494FD08EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F9365D9-0F26-4F33-8B00-89C494FD08EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F9365D9-0F26-4F33-8B00-89C494FD08EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9F9365D9-0F26-4F33-8B00-89C494FD08EE} = {18271F8B-A131-4A9D-B369-179DDF07E431}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2EAE3507-99BE-4301-9F43-F784D13DE75C}
+	EndGlobalSection
+EndGlobal
